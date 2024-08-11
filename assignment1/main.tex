@@ -31,6 +31,7 @@
 \usepackage{tabularx}
 \usepackage{array}
 \usepackage{float}
+\usepackage{multicol}
 
 
 \newtheorem{theorem}{Theorem}[section]
@@ -60,118 +61,120 @@
 \bigskip
 
 \renewcommand{\thefigure}{\theenumi}
-\renewcommand{\thetable}{\theenumi}
+\renewcommand{\thetable}{\theenmui}
+\begin{enumerate}[start=2]
+\item Let $g\brak{x}$ be a function defined on $\sbrak{-1,1}$.if the area of the equilateral triangle with two of its vertices at $\brak{0,0}$ and $\sbrak{x,g\brak{x}}$ is $\frac{\sqrt{3}}{4}$, then the function $g\brak{x}$ is
+\hfill(1989-2 Marks)
+\begin{multicols}{2}
+\begin{enumerate} [label=(\alph*)] 
+\item $g\brak{x}=\pm\sqrt{1-x^2}$ 
+\item $g\brak{x}=\sqrt{1-x^2}$
+\item $g\brak{x}=-\sqrt{1-x^2}$
+\item $g\brak{x}=\sqrt{1+x^2}$
+\end{enumerate}
+\end{multicols}
+\item If $f\brak{x} = \cos\sbrak{\pi^2}x + cos\sbrak{-\pi^2}x$, where
+\sbrak{x} stands for the greatest integer function , then  
 
-\begin{enumerate}
+\hfill(1991-2Marks)
+\begin{multicols}{2}
+\begin{enumerate} [label=(\alph*)]
+\item $f\brak{\frac{\pi}{2}}=-1$
+\item $f\brak{\pi}=1$
+\item $f\brak{-\pi}=0$
+\item $f\brak{\frac{\pi}{4}}=1$
+\end{enumerate}
+\end{multicols}
+\item If $f\brak{x}=3x-5$,then $f^{-1}\brak{x}$
+\hfill(1998-2Marks)
+\begin{enumerate} [label=(\alph*)]
+\item is given by $\frac{1}{3x-5}$
+\item is given by $\frac{x+5}{3}$
+\item does not exist because $f$ is not one$-$one
+\item does not exist because $f$ is not onto 
+\end{enumerate}
+\item If $g\brak{f\brak{x}}=|\sin{x}|$ and $f\brak{g\brak{x}}=\brak{\sin{\sqrt{x}}}^2$,then
+\hfill(1998-2Marks)
+\begin{enumerate} [label=(\alph*)]
+\item $f\brak{x}=\sin{x}^2,g\brak{x}=\sqrt{x}$
+\item $f\brak{x}=\sin{x},g\brak{x}=|x|$
+\item $f\brak{x}=x^2,g\brak{x}=\sin{\sqrt{x}}$
+\item $f$ and $g$ cannot be determined
+\end{enumerate}
+\item Let $f:\brak{0,1}\rightarrow{R}$ be defined by $f\brak{x}=\frac{b-x}{1-bx}$,where b is a constant such that $0<b<1$.Then
 
-\item[\textbf{2}]. Let $g\brak{x}$ be a function defined on [-1,1].if the area of the 
-   equilateral triangle with two of its vertices at (0,0) and [x,g\brak{x}] is $\frac{\sqrt{3}}{4}$, then the function $g\brak{x}$ is
-   
-   \hfill\textbf{(1989-2 Marks)}\\
-   
-(a) $g\brak{x}$ = $\pm\sqrt{1-x^2}$\hspace{1cm} (b) $g\brak{x} = \sqrt{1-x^2}$
+\begin{enumerate} [label=(\alph*)]
+\item $f$ is not invertible  on $\brak{0,1}$
+\item$f\neq{f^{-1}}$ on $(0,1)$ and $f^{1}(b)=\frac{1}{f^{1}\brak{0}}$
+\item(c)$f=f^{-1}$ on $\brak{0,1}$ and $f^{1}\brak{b}=\frac{1}{f^{1}\brak{0}}$
+\item$f^{-1} $is differentiable $(0,1)$
+\end{enumerate}
+\item Let $f:\brak{-1,1}\rightarrow{IR}$ be  such that $f\brak{\cos{4\theta}} =\frac{2}{2-\sec^2{\theta}}$ for $\theta \in \brak{0,\frac{\pi}{4}}\cup\brak{\frac{\pi}{4},\frac{\pi}{2}}$. Then the value(s) of $f\brak{\frac{1}{3}}$is are
+\begin{multicols}{2}
+\begin{enumerate} [label=(\alph*)]
+\item $1-\sqrt{\frac{3}{2}}$  
+\item $1+\sqrt{\frac{3}{2}}$
+\item $1-\sqrt{\frac{2}{3}}$   
+\item $1+\sqrt{\frac{2}{3}}$
+\end{enumerate}
+\end{multicols}
+\item The function $f\brak{x}=2|x|+|x+2|-2|x|$ has local minimum or local maximum at x$=$
 
-(c) $g\brak{x}$  = $-\sqrt{1-x^2}$\hspace{1cm}(c) $g\brak{x}=\sqrt{1+x^2}$\\
+\hfill(JEE Adv.2013)
+\begin{multicols}{4}
+\begin{enumerate} [label=(\alph*)]
+\item $-$2
+\item $\frac{-2}{3}$
+\item 2
+\item$\frac{2}{3}$
+\end{enumerate}
+\end{multicols}
+\item Let $f:\brak{\frac{-\pi}{2},\frac{\pi}{2}}\rightarrow{R}$ be given by $f\brak{x}=\brak{log\brak{\sec{x}+tan{x}}}^3$ Then
+\hfill(JEE Adv.2014)
+\begin{enumerate} [label=(\alph*)]
+\item$f\brak{x}$ is an odd function
+\item$f\brak{x}$ is one-one function
+\item$f\brak{x}$ is an onto function
+\item$f\brak{x}$ is an even function
+\end{enumerate}
+\item Let $a \in R$ and let $f:R\rightarrow{R}$ be given by $f\brak{x}=x^5-5x+a$.Then
+\hfill(JEE Adv.2014)
+\begin{enumerate} [label=(\alph*)]
+\item $f\brak{x}$ has three real roots if $a>4$
+\item $f\brak{x}$ has only real root if $a>4$
+\item $f\brak{x}$ has three real roots if $a<-4$
+\item $f\brak{x}$ has three real roots if $-4<a<4$
+\end{enumerate}
+\item Let $f\brak{x}=\sin\brak{\frac{\pi}{6}\brak{\frac{\pi}{2}\sin{x}}}$ for all $x \in R $ and $g\brak{x}=\frac{\pi}{2}\sin{x}$ for all $x \in R$. Let $\brak{fog}\brak{x}$ denote $f\brak{g\brak{x}}$ and $\brak{gof}\brak{x}$ denote $g\brak{f\brak{x}}.$ Then which of the following are true $?$
 
-\item[\textbf{3}]. If $f\brak{x} = \cos[\pi^2]x + cos[-\pi^2]x$, where [x] stands for the greatest integer function , then  
-
-\hfill\textbf{(1991-2Marks)}
-
-(a) $f(\frac{\pi}{2})=-1$\hspace{1cm}(b) $f(\pi)=1$\\
-(C) $f(-\pi)=0$\hspace{1cm}(d) $f(\frac{\pi}{4})=1$\\
-
-\item[\textbf{4}]. If $f(x)=3x-5$,then $f^{-1}(x)$
-
-\hfill\textbf{(1998-2Marks)}
-
-(a) is given by $\frac{1}{3x-5}$\\
-
-(b) is given by $\frac{x+5}{3}$
-
-(c) does not exist because $f$ is not one$-$one\\
-(d) does not exist because $f$ is not onto\\
-
-\item[\textbf{5}].If $g(f(x))=|{\sin{x}}| and f(g(x))=(\sin{\sqrt{x}})^2$,then
-
-\hfill\textbf{(1998-2Marks)}
-
-(a) $f(x)=\sin{x}^2,g(x)=\sqrt{x}$\\
-(b) $f(x)=\sin{x},g(x)=|x|$
-
-(c) $f(x)=x^2,g(x)=\sin{\sqrt{x}}$\\
-(d) $f$ and $g$ cannot be determined\\
-
-\item[\textbf{6}]. Let $f:(0,1)\rightarrow{R}$ be defined by $f(x)=\frac{b-x}{1-bx}$,where b is a constant such that $0<b<1$.Then\\
-(a) $f$ is not invertible  on $(0,1)$\\
-(b)$f\neq{f^{-1}}$ on $(0,1)$ and $f^{1}(b)=\frac{1}{f^{1}(0)}$\\
-(c)$f=f^{-1}$ on (0,1) and $f^{1}(b)=\frac{1}{f^{1}(0)}$\\
-(d)$f^{-1} $is differentiable $(0,1)$\\
-\newpage
-\item[\textbf{7}]. Let $f:\brak{-1,1}\rightarrow{IR}$ be  such that $f\brak{\cos{4\theta}} =\frac{2}{2-\sec^2{\theta}}$ for $\theta \in \brak{0,\frac{\pi}{4}}\cup\brak{\frac{\pi}{4},\frac{\pi}{2}}$. Then the value(s) of $f\brak{\frac{1}{3}}$is are\\
-(a) $1-\sqrt{\frac{3}{2}}$  \hspace{1cm} (b)$1+\sqrt{\frac{3}{2}}$\\
-(c) $1-\sqrt{\frac{2}{3}}$   \hspace{1cm} (d)$1+\sqrt{\frac{2}{3}}$\\
-
-\item[\textbf{8}]. The function $f(x)=2|x|+|x+2|-2|x|$ has local minimum or local maximum at x$=$
-
-\hfill\textbf{(JEE Adv.2013)}
-
-(a)-2\hspace{1cm}
-(b)$\frac{-2}{3}$\hspace{1cm}
-(c)2\hspace{1cm}
-(d)$\frac{2}{3}$\\
-
-\item[\textbf{9}].Let $f:\brak{\frac{-\pi}{2},\frac{\pi}{2}}\rightarrow{R}$ be given by $f\brak{x}=\brak{log\brak{\sec{x}+tan{x}}}^3$ Then
-
-\hfill\textbf{(JEE Adv.2014)}
-
-(a)$f(x)$ is an odd function
-
-(b)$f(x)$ is one-one function
-
-(c)$f(x)$ is an onto function
-
-(d)$f(x)$ is an even function\\
-
-\item[\textbf{10}]. Let $a \in R$ and let $f:R\rightarrow{R}$ be given by $f\brak{x}=x^5-5x+a$.Then
-
-\hfill\textbf{(JEE Adv.2014)}
-
-(a) $f(x)$ has three real roots if $a>4$\\
-(b) $f(x)$ has only real root if $a>4$\\
-(c) $f(x)$ has three real roots if $a<-4$\\
-(d) $f(x)$ has three real roots if $-4<a<4$\\
-
-\item[\textbf{11}]. Let $f\brak{x}=\sin(\frac{\pi}{6}(\frac{\pi}{2}\sin{x}))$ for all $x \in R $ and $g(x)=\frac{\pi}{2}\sin{x}$ for all $x \in R$. Let $\brak{fog}\brak{x}$ denote $f\brak{g\brak{x}}$ and $\brak{gof}\brak{x}$ denote g\brak{f\brak{x}}. Then which of the following are true $?$
-
-\hfill\textbf{(JEE Adv 2015)}\\
-(a) Range of $f$ is $[\frac{-1}{2},\frac{1}{2}]$\\
-(b) Range of $fog$ is $[\frac{-1}{2},\frac{1}{2}]$\\
-(c) $\lim_{x\rightarrow{0}}\frac{f(x)}{g(x)}=\frac{\pi}{6}$\\
-(d) There is an $x \in R$ such that $\brak{gof}\brak{x}=1$\\
+\hfill(JEE Adv 2015)
+\begin{enumerate} [label=(\alph*)]
+\item Range of $f$ is $\sbrak{\frac{-1}{2},\frac{1}{2}}$
+\item Range of $fog$ is $\sbrak{\frac{-1}{2},\frac{1}{2}}$
+\item $\lim_{x\rightarrow{0}}\frac{f(x)}{g(x)}=\frac{\pi}{6}$
+\item There is an $x \in R$ such that $\brak{gof}\brak{x}=1$
+\end{enumerate}
+\end{enumerate}
 \begin{center}
     \item 
-      \textbf{SECTION-A(E)\\Subjective Problems(1-5)}\\
-      
-      
+      \textbf{SECTION-A(E)\\Subjective Problems(1-5)}
 \end{center}
+\begin{enumerate}[start=1]
+\item Find the domain and the range of the function $f\brak{x}+\frac{x^2}{1+x^2}$.Is the function one one? 
+\hfill(1978)
+\item Draw the graph of $y=|x|^{\frac{1}{2}}$ for $-1\le x \le1.$
 
-\
-\item[\textbf{1}]. Find the domain and the range of the function $f(x)+\frac{x^2}{1+x^2}$.Is the function one one? 
-    \hfill\textbf{(1978)}\\
-     \item[\textbf{2}]. Draw the graph of $y=|x|^{\frac{1}{2}}$ for $1\le x \le1.$
-     
-     \hfill\textbf{(1978)}\\
-     \item[\textbf{3}].If $f(X)=x^9-6x^8-2x^7+12x^6+x^4-7x^3+6x^2+x-3$ find $f(x)$
-     \hfill\textbf{(1979)}\\
+\hfill(1978)
+\item If $f\brak{x}=x^9-6x^8-2x^7+12x^6+x^4-7x^3+6x^2+x-3$ find $f\brak{x}$
+\hfill(1979)
+\item Consider the following relations in the set of real numbers R.
 
-     \item[\textbf{4}].Consider the following relations in the set of real numbers R.\\
-      $R=\{(x,y):x\in R,y\in R,x^2+y^2\le25\}$\\
-      $R^1=\{(x,y):x\in R,y\in R,y\ge\frac{4}{9}x^2\}$\\
-      Find the domain and the range of$ R\cap R^1.$ Is the relation$ R\cap R^1$ a function? 
-      \hfill\textbf{(1979)}\\
+$R=\{\brak{x,y}:x\in R,y\in R,x^2+y^2\le25\}$
+$R^1=\{\brak{x,y}:x\in R,y\in R,y\ge\frac{4}{9}x^2\}$
 
-      \item[\textbf{5}].Let A and B be two sets each with a finite number of elements. Assume that there is an injective mapping from A to B and that there is an injective mapping from B to A.Prove that there is a bijective mapping from A to B.
-
- \hfill\textbf{(1981-2Marks)}\\
- \end{enumerate}
+Find the domain and the range of$ R\cap R^1.$ Is the relation$ R\cap R^1$ a function? 
+\hfill(1979)
+\item Let A and B be two sets each with a finite number of elements. Assume that there is an injective mapping from A to B and that there is an injective mapping from B to A.Prove that there is a bijective mapping from A to B.
+\hfill(1981-2Marks)
+\end{enumerate}
 \end{document}
