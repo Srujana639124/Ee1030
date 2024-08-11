@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.8.5)  11 AUG 2024 18:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.8.5)  11 AUG 2024 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1324,35 +1324,34 @@ e
 \c@lstlisting=\count366
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/txr/m/nlticols undefined.
+(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 51.
+Package gensymb Info: Math companion symbols declared on input line 51.
+LaTeX Info: Redefining \degree on input line 51.
+LaTeX Info: Redefining \celsius on input line 51.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 51.
+LaTeX Info: Redefining \ohm on input line 51.
+Package gensymb Info: Using \textohm for \ohm on input line 51.
+Package gensymb Info: Using \textmu for \micro on input line 51.
+Package hyperref Info: Link coloring OFF on input line 51.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 \begin{multicols}
-                      {2}
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.67 \begin{multicols}
-                      {2}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+(./main.out) (./main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
 
- 
-Here is how much of TeX's memory you used:
- 30435 strings out of 476091
- 599513 string characters out of 5794082
- 1851330 words of memory out of 5000000
- 50178 multiletter control sequences out of 15000+600000
- 560170 words of font info for 131 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
- 101i,6n,96p,1172b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
-n for U+txmia on input line 6
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
+6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
+6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
